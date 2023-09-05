@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  @apply text-teal-600 hover:text-teal-800; /* Updated color scheme */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  @apply mb-5 block rounded-lg border border-gray-300 shadow-md; /* Updated border color */
+}
+
+.primary-button {
+  @apply rounded bg-indigo-500 py-2 px-4 shadow outline-none hover:bg-indigo-600 active:bg-indigo-700; /* Updated color scheme */
+}
+
+.default-button {
+  @apply rounded bg-gray-200 py-2 px-4 text-gray-800 shadow outline-none hover:bg-gray-300 active:bg-gray-400; /* Updated color scheme */
+}
+
+input,
+select,
+textarea {
+  @apply rounded border p-2 outline-none ring-indigo-400 focus:ring; /* Updated color scheme */
+}
+
+.dropdown-link {
+  @apply flex p-2 hover:bg-gray-200;
+}
+
+.alert-error {
+  @apply my-3 rounded-lg bg-red-200 p-3 text-red-800; /* Updated color scheme */
+}
+
+.alert-success {
+  @apply my-3 rounded-lg bg-green-200 p-3 text-green-800; /* Updated color scheme */
+}
