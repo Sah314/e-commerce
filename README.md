@@ -7,4 +7,3 @@
 - Content Hosting: cloudinary
 - Deploy: Github, Vercel, MongoDB Atlas
 
-![next amazona](/public/app.jpg)
